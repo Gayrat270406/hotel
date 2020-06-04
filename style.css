@@ -242,15 +242,73 @@ div.space {
 
 /* contact.html css page */
 
+h1.contactus {
+    font-size: 45px;
+    padding-top: 20px;
+}
+h2.contactus {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.form input {
+    width: 100%;
+    padding:6px;
+    border: 1px solid black;
 
+}
+input#message {
+    padding: 30px;
+    margin-bottom: 5px;
+}
+.btn7 {
+    background-color: rgb(36, 34, 34);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
 
+.bgclor {
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 200px;
+}
 
+.loc7 img,
+.loc8 img,
+.loc9 img {
+    width: 50px;
+    height: 50px;
+}
 
-
-
-
-
-
+.loc7,
+.loc8,
+.loc9 {
+    float: left;
+    padding-left: 120px;
+    padding-right: 110px;
+    padding-top: 40px;
+    text-align: center;
+    overflow: auto;
+    color: white;
+}
+.loc7 h3,
+.loc8 h3,
+.loc9 h3 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 
 
 
